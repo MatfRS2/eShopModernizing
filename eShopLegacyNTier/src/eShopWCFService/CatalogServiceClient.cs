@@ -35,12 +35,22 @@ namespace eShopWCFService
 
         public List<CatalogItem> GetCatalogItems()
         {
-            return base.Channel.GetCatalogItems();
+            return base.Channel.GetCatalogItems(0,0);
+        }
+
+        public List<CatalogItem> GetCatalogItems(int brandIdFilter, int typeIdFilter)
+        {
+            throw new NotImplementedException();
         }
 
         public List<CatalogType> GetCatalogTypes()
         {
             return base.Channel.GetCatalogTypes();
+        }
+
+        public DiscountItem GetDiscount(DateTime day)
+        {
+            throw new NotImplementedException();
         }
 
         public void RemoveCatalogItem(CatalogItem catalogItem)
