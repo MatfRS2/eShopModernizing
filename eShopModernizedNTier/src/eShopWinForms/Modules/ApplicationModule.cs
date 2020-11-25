@@ -11,7 +11,7 @@ namespace eShopWinForms.Modules
         }
         protected void Load()
         {
-           /* if (this.useMockData)
+           /*if (this.useMockData)
             {
                 builder.RegisterType<CatalogServiceMock>()
                     .As<ICatalogService>()
