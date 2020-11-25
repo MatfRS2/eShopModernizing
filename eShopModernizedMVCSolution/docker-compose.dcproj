@@ -9,6 +9,9 @@
     <DockerServiceName>eshopmodernizedmvc</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="docker-compose.nobuild.nosql.yml" />
+    <None Include="docker-compose.nobuild.yml" />
+    <None Include="docker-compose.override.nosql.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
